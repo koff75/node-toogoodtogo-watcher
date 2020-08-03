@@ -27,6 +27,25 @@ Options:
   --version  Show version number                                       [boolean]
 ```
 
+## Telegram documentation
+```
+Usage: /<command>
+Example: /help
+
+Features:
+- Scanning your favorite markets list when product is going to be sell.
+- Scanning top markets around you with products to sell.
+
+Commands:
+  /startFav            To start sending notifications when products are available on your favorites markets.
+  /stopFav             To stop scanning your favorite markets list.
+  send your location   Send your map location to be notify when a top ranked market has products to sell.
+  /stopLoc             Stop scanning top ranking markets around you.
+  /stop                Stopping everything, and turn off all notifications
+  /status              To know which scanning process is turn on/off
+  /help                Show the helper menu
+```
+
 ## Displaying the notifications in the Windows notification center
 By default Windows doesn't display the notifications in the notification center. You can enable this by doing the following steps.
 
