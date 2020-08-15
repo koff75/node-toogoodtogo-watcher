@@ -1,41 +1,41 @@
 {
-    "api": {
-        "credentials": {
-            "email": "",
-            "password": ""
-        },
-        "session": {},
-        "headers": {
-            "User-Agent": "TGTG/19.12.0 (724) (Android/Unknown; Scale/3.00)"
-        },
-        "pollingIntervalInMs": 30000,
-        "authenticationIntervalInMS": 3600000
+  "api": {
+    "credentials": {
+      "email": "",
+      "password": ""
     },
-    "notifications": {
-        "pollingFav": false,
-		"pollingLoc": true,
-        "console": {
-            "enabled": true,
-            "clear": true
-        },
-        "desktop": {
-            "enabled": true
-        },
-        "telegram": {
-            "enabled": false,
-            "botToken": "See README",
-            "chats": {}
-        }
+    "session": {},
+    "headers": {
+      "User-Agent": "TGTG/19.12.0 (724) (Android/Unknown; Scale/3.00)"
     },
-    "messageFilter": {
-        "showUnchanged": false,
-        "showDecrease": false,
-        "showDecreaseToZero": false,
-        "showIncrease": false,
-        "showIncreaseFromZero": true
+    "pollingIntervalInMs": 30000,
+    "authenticationIntervalInMS": 3600000
+  },
+  "notifications": {
+    "pollingFav": false,
+    "pollingLoc": true,
+    "console": {
+      "enabled": false,
+      "clear": true
     },
-    "localization": {
-		"latitude": 0,
-		"longitude": 0
-	}
+    "desktop": {
+      "enabled": false
+    },
+    "telegram": {
+      "enabled": false,
+      "botToken": "See README",
+      "chats": {}
+    }
+  },
+  "messageFilter": {
+    "showUnchanged": false,
+    "showDecrease": false,
+    "showDecreaseToZero": false,
+    "showIncrease": false,
+    "showIncreaseFromZero": true
+  },
+  "localization": {
+    "latitude": 0,
+    "longitude": 0
+  }
 }
