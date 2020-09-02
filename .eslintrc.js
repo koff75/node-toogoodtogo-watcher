@@ -3,10 +3,10 @@ module.exports = {
     browser: true,
     es2020: true,
   },
-  extends: ['google'],
+  extends: ["replyguy/all"],
   parserOptions: {
     ecmaVersion: 11,
-    sourceType: 'module',
+    sourceType: "module",
   },
   rules: {},
-};
+}
