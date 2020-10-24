@@ -16,6 +16,10 @@ See [below for Docker usage](#docker).
 4. `toogoodtogo-watcher watch`
 
 ## CLI documentation
+**New telegram interface !**
+
+<img src="/Telegram-TGTG.jpg" width="300">
+
 
 ```
 Usage: toogoodtogo-watcher <command>
